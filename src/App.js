@@ -4,13 +4,13 @@ import Search from "./components/Search";
 import SayHi, { SayHello } from "./components/WeatherItem";
 import fakeWeatherData from "./fakeWeatherData.json";
 import weatherI from "./img/instructions/weatherI.png";
-// import fog from '../src/img/weather-icons/fog.svg'
-// import mostlycloudy from '../src/img/weather-icons/mostlycloudy.svg'
-// import partlycloudy from '../src/img/weather-icons/partlycloudy.svg'
-// import rain from '../src/img/weather-icons/rain.svg'
-// import snow from '../src/img/weather-icons/snow.svg'
-// import storm from '../src/img/weather-icons/storm.svg'
-// import unknown from '../src/img/weather-icons/unknown.svg'
+import fog from '../src/img/weather-icons/fog.svg'
+import mostlycloudy from '../src/img/weather-icons/mostlycloudy.svg'
+import partlycloudy from '../src/img/weather-icons/partlycloudy.svg'
+import rain from '../src/img/weather-icons/rain.svg'
+import snow from '../src/img/weather-icons/snow.svg'
+import storm from '../src/img/weather-icons/storm.svg'
+import unknown from '../src/img/weather-icons/unknown.svg'
 
 import "./App.css";
 
@@ -51,51 +51,51 @@ class App extends Component {
           <div className="temp24">
             <div className="tempHour">
               <span>03:00</span>
-              {/* <img src={mostlycloudy} alt="time" /> */}
-              <img src="https://via.placeholder.com/100/100" />
+              <img src={mostlycloudy} alt="time" />
+              {/* <img src="https://via.placeholder.com/100/100" /> */}
               <span>8 <sup>o</sup>C</span>
             </div>
 
             <div className="tempHour">
               <span>03:00</span>
-              {/* <img src={fog} alt="time" /> */}
-              <img src="https://via.placeholder.com/100/100" />
+              <img src={fog} alt="time" />
+              {/* <img src="https://via.placeholder.com/100/100" /> */}
               <span>8 <sup>o</sup>C</span>
             </div>
 
             <div className="tempHour">
               <span>03:00</span>
-              {/* <img src={partlycloudy} alt="time" /> */}
-              <img src="https://via.placeholder.com/100/100" />
+              <img src={partlycloudy} alt="time" />
+              {/* <img src="https://via.placeholder.com/100/100" /> */}
               <span>8 <sup>o</sup>C</span>
             </div>
 
             <div className="tempHour">
               <span>03:00</span>
-              {/* <img src={rain} alt="time" /> */}
-              <img src="https://via.placeholder.com/100/100" />
+              <img src={rain} alt="time" />
+              {/* <img src="https://via.placeholder.com/100/100" /> */}
               <span>8 <sup>o</sup>C</span>
             </div>
 
             <div className="tempHour">
             <span>03:00</span>
-            {/* <img src={snow} alt="time"/> */}
-            <img src="https://via.placeholder.com/100/100" />
+            <img src={snow} alt="time"/>
+            {/* <img src="https://via.placeholder.com/100/100" /> */}
             <span>8 <sup>o</sup>C</span>
             </div>
 
             <div className="tempHour">
             <span>03:00</span>
-            {/* <img src={storm} alt="time"/> */}
-            <img src="https://via.placeholder.com/100/100" />
+            <img src={storm} alt="time"/>
+            {/* <img src="https://via.placeholder.com/100/100" /> */}
             <span>8 <sup>o</sup>C</span>
             
             </div>
 
             <div className="tempHour">
             <span>03:00</span>
-            {/* <img src={unknown} alt="time"/> */}
-            <img src="https://via.placeholder.com/100/100" />
+            <img src={unknown} alt="time"/>
+            {/* <img src="https://via.placeholder.com/100/100" /> */}
             <span>8 <sup>o</sup>C</span>
             </div>
           </div>
