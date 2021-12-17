@@ -1,9 +1,8 @@
-.app {
+/* .app {
   height: 100vh;
   width: 100vw;
   transition: background-color 1s ease-in;
 }
-
 .app__header,
 .app__main {
   width: 100%;
@@ -15,11 +14,141 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/*  Search bar */
-
-/* Current weather */
-
 div {
   border: 5px solid red;
+} */
+/* .app{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+} */
+
+
+@media  (max-width: 1158px) {
+.header{
+  height: 100px;
+}
+  .search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .btnS , input{
+     width: 200px;
+   }
+   .temp24{
+     /* background-color: red; */
+     flex-direction: column;
+     width: 75px;
+     margin: auto;
+   }
+   .tempHour{
+    margin-bottom: 25px; 
+    margin-top:10px;
+    
+  }
+  
+  .temStateDiv{
+  border-bottom: 1px solid whitesmoke;
+  flex-direction: column;
+  
+}
+}
+
+/* .app{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+} */
+.app{
+  font-family: "Raleway", sans-serif;
+  color:#080a4e
+}
+.header{
+  padding: 10px;
+  background-color: #759eda;
+}
+.main{
+  text-align: center;
+   padding: 10px;
+   background-color: #9ccef4;
+   height: 79%;
+}
+::placeholder{
+  color: white;
+}
+input{
+    background-color: #759eda;
+    height: 25px;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    border-bottom-style: dashed;
+    padding: 3px 10px;
+    margin: 2px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+.btnS{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-color: #5879c7;
+  color: black;
+  padding: 10px;
+  margin-left: 5px;
+  border: 1px solid #5879c7;
+  border-radius: 3px;
+  color:#080a4e
+  /* float: right; */
+}
+.img01{
+  margin-top: 10px;
+  width: 250px;
+  height: 170px;
+}
+.temp{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.temperature{
+  font-family: "Raleway", sans-serif;
+  
+}
+
+.temperature
+{
+  display: inline;
+}
+#temperature01{
+  font-weight: bold;
+}
+.temStateDiv{
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 40%;
+  margin-bottom:25px
+}
+#temStateDiv01{
+  font-weight: bold;
+}
+.tempHour{
+  font-family: "Raleway", sans-serif;
+  margin-bottom:80px;
+  line-height:50px;
+  display:flex;
+    flex-direction:column
+}
+.temp24{
+  display: flex;
+  justify-content: space-evenly;
+}
+.TemperatureDiv{
+  margin-bottom:25px
 }
