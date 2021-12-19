@@ -118,7 +118,7 @@ Note that your React components at this stage should still have hardcoded number
 # git commit -m "Weather API: Breaking the HTML in App.js into React components"
 # git push
 ```
-
+# Done ......................
 ### 3. Practice using props to populate your values
 
 If you're still new to React and props you should now spend a little time practicing passing props from parent component to child component, and using those props to populate the values (such as the temperature).

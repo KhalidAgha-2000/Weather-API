@@ -1,41 +1,36 @@
 import React from "react";
 import clear from "../img/weather-icons/clear.svg";
-// import "./Search.css";
-// import "../App.css";
-class Search extends React.Component {
-  state = {
-    input: ""
-  };
 
-  render() {
-    return (
-      <div className="app">
-        
-        <div className="header">
+const Search = props => {
+  return (
+    <div className="app">
+     {/** <form onSubmit={props.loadweather}> */}
+      {/**<div>{props.error ? error() : ""}</div> */}
+     <form onSubmit={props.loadweather}> 
+     <div>{props.error ? error() : ""}</div>
+      <div className="header">
           <div className="search">
-            <input placeholder="Type in a city name " type="text" required name="searchI" />
+            <input placeholder="Type in a city name "
+              type="text"
+              required
+              name="city" />
             <button className="btnS">FIND WEATHER</button>
           </div>
-
         </div>
-      </div>
-    );
-  }
+        </form>
+      {/**</form> */}
+    </div>
+  );
 }
+const error = props => {
+  return (
+    <div role="alert" className="error">
+      Please Enter City ...
+    </div>
+  );
+};
+
+
+
 export default Search;
 
-        {/* {this.state.input}
-        <input
-          type="text"
-          id="input-name"
-          onChange={event => {
-            this.setState({ input: event.target.value });
-          }}
-        />
-        <button
-          onClick={event => {
-            this.props.handleInput(this.state.input);
-          }}
-        >
-          Say Hello
-        </button> */}
