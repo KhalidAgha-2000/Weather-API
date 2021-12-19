@@ -15,30 +15,30 @@ const WeatherItem = props => {
 
       {/**--------------- */}
       <div className="main" >
-        <img  src={props.weatherIcon}/>
-        {/**<img className="img01" src={props.weatherIcon} alt="image01" /> */}
-        {/**        <p className="temp">   {props.description}       </p> */}
-        
-        <p className="temp">   description {props.cityname}     </p>
+        {/* <img  src={props.weatherIcon}/> */}
+        <img className="img01" src={props.weatherIcon} alt="image01" />
+        <p className="temp">   {props.description}       </p>
+
+        {/* <p className="temp">   description {props.cityname}     </p> */}
 
         <div className="TemperatureDiv">
-          {/**<p className="temperature" id="temperature01">{props.temp_celsius ? (<span>Temperature : </span>) : null}   </p>
+          <p className="temperature" id="temperature01">{props.temp_celsius ? (<span>Temperature : </span>) : null}   </p>
           <p className="temperature">{props.temp_celsius}  {props.temp_celsius ? (<span> ْ C</span>) : null}    </p>
-        */}
-          <p className="temperature" id="temperature01">TEP  :  </p>
-          <p className="temperature"> {props.temp_celsius}    </p>
+
+          {/* <p className="temperature" id="temperature01">TEP  :  </p>
+          <p className="temperature"> {props.temp_celsius}    </p> */}
 
         </div>
         <div className="temStateDiv">
-          {/**<p className="tepState" id="temStateDiv01">{props.main ? (<span> Humidity</span>) : null}</p>
+        <p className="tepState" id="temStateDiv01">{props.main ? (<span> Humidity</span>) : null}</p>
           <p className="tepState">    {props.main ? (<span>{props.main} %</span>) : null}     </p>
           <p className="tepState" id="temStateDiv01">{props.pressure ? (<span>Pressure</span>) : null} </p>
           <p className="tepState">  {props.pressure} </p>
-         */}
-          <p className="tepState" id="temStateDiv01"> Humidity</p>
+        
+          {/* <p className="tepState" id="temStateDiv01"> Humidity</p>
           <p className="tepState">    {props.main}     </p>
           <p className="tepState" id="temStateDiv01">Pressure </p>
-          <p className="tepState">  {props.pressure} </p>
+          <p className="tepState">  {props.pressure} </p> */}
 
         </div>
         <div className="temp24">

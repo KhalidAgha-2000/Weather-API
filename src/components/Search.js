@@ -4,10 +4,10 @@ import clear from "../img/weather-icons/clear.svg";
 const Search = props => {
   return (
     <div className="app">
-     {/** <form onSubmit={props.loadweather}> */}
-      {/**<div>{props.error ? error() : ""}</div> */}
-     <form onSubmit={props.loadweather}> 
-     <div>{props.error ? error() : ""}</div>
+    <form onSubmit={props.loadweather}> 
+    <div>{props.error ? error() : ""}</div>
+     {/* <form onSubmit={props.loadweather}> 
+     <div>{props.error ? error() : ""}</div> */}
       <div className="header">
           <div className="search">
             <input placeholder="Type in a city name "
